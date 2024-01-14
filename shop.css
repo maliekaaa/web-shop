@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(10, 48, 10);
+}
+.header {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 65px;
+}
+.header-right {
+    font-size: 40px;
+    padding: 15px;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    color: black;
+    margin-left: 955px;
+}
+nav {
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+nav a {
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.font1 h1 {
+    padding-top: 90px;
+    padding-left: 50px;
+    font-size: 65px;
+    color: white;
+}
+.font1 img {
+    position: absolute;
+    border-radius: 100px 0px;
+    margin-left: 955px;
+}
+.font1 button {
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    margin-left: 65px;
+}
+
+.fa-solid {
+    margin-left: 15px;
+}
+
+.font2 img {
+    margin-top: 50px;
+    border-radius:100% 100% 0% 0% ;
+    margin-left: 55px;
+}
+
+article {
+    background-color: white;
+}
+.best-services h3 {
+    text-align: center;
+}
+.best-services p {
+    text-align: center;
+    font-size: 15px;
+}
+.best-1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    flex-direction: row;
+}
+.best-img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    display: flex;
+}
+
+.featured {
+    width: 100%;
+    height: 850px;
+    background-color: beige;
+}
+.featured h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.box {
+    transition: 0.3s;
+    width: 15%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.box img{
+    width:100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px
+}
+
+.box-kotak {
+    padding: 2px 16px;
+    color: white;
+    background-color: rgb(10, 48, 10);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.box-kotak p {
+    text-align: center;
+}
+.box-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.kata-tengah {
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.tengah {
+    flex-direction: row;
+}
+.tengah img {
+    margin: 85px;
+}
+.kata-tengah h1 {
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+.tengah button {
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+footer {
+    background-color: black;
+}
+.akhir {
+    display: flex;
+    padding-top: 65px;
+}
+.akhir span {
+    color: rgb(18, 184, 18);
+}
+.akhir-teks {
+    margin: 45px;
+    color: white;
+    margin-top: -25px;
+}
+.akhir-teks ul {
+    list-style: none;
+}
+.akhir-teks-1 {
+    margin-left: 155px;
+    color: white;
+}
+.akhir-teks-1 ul {
+    list-style: none;
+}
+.akhir-teks-2 {
+    margin-left: 125px;
+    color: white;
+}
+.akhir-teks-2 ul {
+    list-style: none;
+}
+.akhir-teks-3 {
+    margin-left: 175px;
+    color: white;
+}
+.akhir-teks-3 ul {
+    list-style: none;
+}
+.cp {
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+}
+.fa-brands {
+    padding: 15px;
+    font-size: 25px;
+}
+
+  
+  
