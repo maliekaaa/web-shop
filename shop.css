@@ -82,13 +82,18 @@ article {
     align-items: center;
     background-color: white;
     height: 100px;
-    flex-direction: row;
+    flex-direction: row;  
+    margin-left: 85px;
 }
 .best-img {
     width: 100px;
     height: 100px;
     margin: 15px;
     display: flex;
+}
+.best-semua {
+    display: flex;
+    padding: 75px;
 }
 
 .featured {
